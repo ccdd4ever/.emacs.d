@@ -68,6 +68,9 @@
 (require 'init-fonts)
 (require 'init-mmm)
 
+(when (equal (string-equal system-type "windows-nt") nil)
+  (require 'init-growl))
+
 (require 'init-editing-utils)
 (require 'init-whitespace)
 (require 'init-fci)
