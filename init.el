@@ -118,6 +118,7 @@
 
 (require 'init-mican)
 (require 'init-go)
+(require 'init-coffee)
 ;; Extra packages which don't require any configuration
 
 (require-package 'gnuplot)
