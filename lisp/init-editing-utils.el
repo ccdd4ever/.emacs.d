@@ -162,8 +162,6 @@
 (global-set-key (kbd "C-c c a") 'mc/edit-beginnings-of-lines)
 
 
-<<<<<<< eb22f0ce13f5db5802305450da5a9e2bd7cf6f80
-=======
 (defun duplicate-region (beg end)
   "Insert a copy of the current region after the region."
   (interactive "r")
@@ -178,7 +176,6 @@
 
 ;;(global-set-key (kbd "C-c p") 'duplicate-line-or-region)
 
->>>>>>> projectile
 ;; Train myself to use M-f and M-b instead
 (global-unset-key [M-left])
 (global-unset-key [M-right])
